@@ -1,0 +1,135 @@
+.info__wrapper,
+.info__wrapper-skeleton {
+  color: #d4d4d4;
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  justify-content: space-around;
+  margin: 80px 260px;
+}
+
+.info__wrapper-skeleton {
+  display: flex;
+  align-items: center;
+}
+
+.image__info--wrapper,
+.image__info--wrapper-skeleton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image__info,
+.image__info--skeleton {
+  height: 600px;
+}
+
+.image__info--skeleton {
+  height: 600px;
+  width: 300px;
+  background-color: #c0c0c0;
+  color: #c0c0c0;
+  margin-top: 100px;
+}
+
+.anime__info--wrapper > h2,
+.anime__info--wrapper-skeleton > h2 {
+  font-size: 20px;
+}
+
+.anime__info--wrapper > h2,
+.anime__info--wrapper > h1,
+.anime__info--wrapper > h3,
+.anime__info--wrapper-skeleton > h1,
+.anime__info--wrapper-skeleton > h2,
+.anime__info--wrapper-skeleton > h3 {
+  line-height: 3;
+}
+
+.anime__info--wrapper-skeleton > h1,
+.anime__info--wrapper-skeleton > h2,
+.anime__info--wrapper-skeleton > h3,
+.anime__info--wrapper-skeleton > p,
+.info__youtube--skeleton {
+  background-color: #c0c0c0;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+.anime__info--wrapper-skeleton > h1 {
+  width: 500px;
+}
+
+.anime__info--wrapper-skeleton > h2 {
+  width: 400px;
+}
+
+.anime__info--wrapper-skeleton > h3 {
+  width: 300px;
+}
+
+.anime__info--wrapper-skeleton > p {
+  width: 600px;
+}
+
+.info__more--skeleton {
+  background-color: #c0c0c0;
+  color: #c0c0c0;
+  width: 350px;
+}
+
+.info__youtube--skeleton {
+  width: 400px;
+}
+
+.anime__info--wrapper,
+.anime__info--wrapper-skeleton {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.info__link,
+.info__link--skeleton {
+  margin-top: 10px;
+  line-height: 3;
+}
+
+.back__btn {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1366px) {
+  .info__wrapper,
+  .info__wrapper-skeleton {
+    margin: 80px 100px;
+  }
+}
+
+@media (max-width: 1205px) {
+  .info__wrapper,
+  .info__wrapper-skeleton {
+    margin: 80px 50px;
+  }
+}
+@media (max-width: 1155px) {
+  .info__wrapper,
+  .info__wrapper-skeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .anime__info--wrapper,
+  .anime__info--wrapper-skeleton {
+    max-width: 500px;
+    text-align: center;
+  }
+  .image__info--wrapper,
+  .image__info--skeleton {
+    margin-left: 80px;
+  }
+}
+

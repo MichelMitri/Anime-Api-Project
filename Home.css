@@ -1,0 +1,6 @@
+.home__wrapper {
+  background-color: #242424;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
